@@ -1,0 +1,32 @@
+body {
+	font-family: courier verdana;
+	background-color: rgb(240, 238, 238);
+	font-size: 30px;
+}
+
+div.header {
+    margin: 50px 30px;
+}
+
+div.header p {
+    text-align: center;
+    font-size: 50px;	
+    text-shadow: 2px 2px 5px red;
+    margin: auto;
+}
+div.header a {
+    float: left;
+}
+div.info {
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px grey;
+    margin: 40px 40px;
+    height: 700px;
+}
+.imginfo {
+    float: left;
+    width: 40%;
+    height: 700px;
+}
+span {
+    font-style: 
