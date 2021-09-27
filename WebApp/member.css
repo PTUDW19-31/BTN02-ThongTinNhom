@@ -1,20 +1,43 @@
 body {
 	font-family: courier verdana;
 	background-color: rgb(240, 238, 238);
-	font-size: 24px;
+	font-size: 30px;
 }
 .info {
-	padding-left: 100px;
+	border: 2px solid black;
+	box-shadow: 10px 10px 5px grey;
+	margin: 40px 40px;
+	height: 700px;
+	background-color: rgb(161, 255, 246);
 }
 
-.comeback .photoBack {
-	width: 10px;
-	height: 10px;
+.photoBack {
+	width: 80px;
+	height: 80px;
+	margin: 50px 30px;
+}
+.photoback p {
+	text-align: center;
+	font-size: 50px;	
+	text-shadow: 2px 2px 5px red;
+	margin: auto;
 }
 
 .imginfo {
-	width: 300px;
-	height: 170px;
-	float: right;
-	padding-right: 50px;
+	float: left;
+	width: 40%;
+	height: 700px;
+}
+#name {
+	text-align: center;
+	text-shadow: 0 0 3px rgb(18, 115, 210);
+	font-size: 40px;
+	font-style: italic;
+}
+table,td {
+	padding: 10px;
+	margin-left: 30px;
+}
+.field{
+	color: rgb(8, 102, 239);
 }
